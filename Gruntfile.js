@@ -81,7 +81,9 @@ module.exports = function(grunt) {
       },
       prod: {
         options: {
-          script: 'dist/server/server.js'
+          script: 'dist/server/server.js',
+          node_env: 'production',
+          port: 443
         }
       }
     },
