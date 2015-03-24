@@ -78,6 +78,11 @@ module.exports = function(grunt) {
         options: {
           script: 'dist/server/server.js'
         }
+      },
+      prod: {
+        options: {
+          script: 'dist/server/server.js'
+        }
       }
     },
 
@@ -148,6 +153,9 @@ module.exports = function(grunt) {
       }
     }
   });
+
+  // Serve the app in production environment
+  grunt.registerTask('serve', ['build', 'express:prod']);
 
   // Perform a build
   grunt.registerTask('build', [ 'jshint', 'clean', 'copy', 'concat', 'uglify']);
