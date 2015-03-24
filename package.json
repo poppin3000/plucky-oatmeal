@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/plucky-oatmeal/plucky-oatmeal.git"
+    "url": "git://github.com/careful-harmonica/plucky-oatmeal.git"
   },
   "keywords": [
     "testing",
@@ -16,12 +16,45 @@
     "casper",
     "phantom"
   ],
-  "author": "Andy Kitson, Brian Hsu, Ryan Atkinson, SungMin Chang",
+  "contributors": [
+    {
+      "name": "Andy Kitson",
+      "email": "andrew.kitson@gmail.com"
+    },
+    {
+      "name": "Brian Hsu",
+      "email": "brianpchsu@gmail.com"
+    },
+    {
+      "name": "Ryan Atkinson",
+      "email": "rjatkinson2@gmail.com"
+    },
+    {
+      "name": "SungMin Chang", 
+      "email": "4sungmin@gmail.com"
+    },
+    {
+      "name": "Ryan Carey",
+      "email": "me@ryancarey.ca"
+    },
+    {
+      "name": "Ben Creasy",
+      "email": "contact@bencreasy.com"
+    },
+    {
+      "name": "Tyler Julian",
+      "email": "APTy@users.noreply.github.com"
+    },
+    {
+      "name": "Pavan Ravipati",
+      "email": "poppin3000@gmail.com"
+    },
+  ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/plucky-oatmeal/plucky-oatmeal/issues"
+    "url": "https://github.com/careful-harmonica/plucky-oatmeal/issues"
   },
-  "homepage": "https://github.com/plucky-oatmeal/plucky-oatmeal",
+  "homepage": "https://github.com/careful-harmonica/plucky-oatmeal",
   "devDependencies": {
     "chai": "^1.9.1",
     "grunt": "^0.4.5",
@@ -62,18 +95,7 @@
     "passport-github": "^0.1.5",
     "ws": "^0.7.1"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/plucky-oatmeal/plucky-oatmeal.git"
-  },
-  "author": "Andy Kitson, Brian Hsu, Ryan Atkinson, SungMin Chang",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/plucky-oatmeal/plucky-oatmeal/issues"
-  },
-  "homepage": "https://github.com/plucky-oatmeal/plucky-oatmeal"
+  }
 }
