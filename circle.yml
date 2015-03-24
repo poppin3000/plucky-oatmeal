@@ -2,7 +2,7 @@
 machine:
 
   timezone:
-    America/Los_Angeles # Set the timezone
+    UTC
 
   # Version of node to use
   node:
