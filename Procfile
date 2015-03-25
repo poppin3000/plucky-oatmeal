@@ -1,1 +1,1 @@
-web: ./serve.sh
+web: ./node_modules/grunt-cli/bin/grunt serve
