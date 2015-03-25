@@ -169,7 +169,7 @@ module.exports = function(grunt) {
   grunt.registerTask('testClient', ['karma:single' ]);
 
   // Run all tests once
-  grunt.registerTask('test', [ 'build', 'testClient', 'teste2e']);
+  grunt.registerTask('test', [ 'build', 'testClient']);
 
   // Run all tests once
   grunt.registerTask('ci', [ 'karma:ci', 'express:dev', 'casperjs' ]);
