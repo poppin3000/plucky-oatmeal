@@ -30,7 +30,7 @@ node_modules/
 bower_components/
 
 # Github app credential
-githubapp.js
+environment.sh
 
 # Database
 data/
