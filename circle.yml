@@ -22,8 +22,8 @@ dependencies:
   pre:
     - npm install -g bower
     - bower install
-    - mkdir data
-    - mongod --dbpath ./data
+    # - mkdir data
+    # - mongod --dbpath ./data
 
 
 ## deployment commands
