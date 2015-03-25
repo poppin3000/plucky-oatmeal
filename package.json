@@ -27,7 +27,7 @@
       "email": "rjatkinson2@gmail.com"
     },
     {
-      "name": "SungMin Chang", 
+      "name": "SungMin Chang",
       "email": "4sungmin@gmail.com"
     },
     {
@@ -82,6 +82,7 @@
     "cookie-parser": "^1.3.4",
     "express": "4.12.3",
     "express-session": "^1.10.4",
+    "grunt-cli": "^0.1.13",
     "grunt-contrib-cssmin": "^0.12.2",
     "grunt-mocha-test": "^0.12.7",
     "grunt-nodemon": "^0.4.0",
